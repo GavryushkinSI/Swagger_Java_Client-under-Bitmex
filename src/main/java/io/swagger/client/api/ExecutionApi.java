@@ -125,7 +125,7 @@ public class ExecutionApi {
             });
         }
 
-        String[] localVarAuthNames = new String[] { "apiKey", "apiNonce", "apiSignature" };
+        String[] localVarAuthNames = new String[] {"apiKey","apiSignature", "apiExpires"};
         return apiClient.buildCall(localVarPath, "GET", localVarQueryParams, localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
 
@@ -286,7 +286,7 @@ public class ExecutionApi {
             });
         }
 
-        String[] localVarAuthNames = new String[] { "apiKey", "apiNonce", "apiSignature" };
+        String[] localVarAuthNames = new String[] {"apiKey","apiSignature", "apiExpires"};
         return apiClient.buildCall(localVarPath, "GET", localVarQueryParams, localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
 
